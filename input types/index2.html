@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="username">Enter Your name</label>
+            <input type="text" id="username">
+        </div>
+        <div>
+            <label for="password">Enter Password</label>
+            <input type="password" id="password">
+        </div>
+        <div>
+            <label for="email">Enter Your Email</label>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <label for="mobile">Enter Your Mobile Number</label>
+            <input type="number" id="mobile" max="5" min="1" value="1">
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male" id="gender">Male
+            <input type="radio" name="gender" value="female" id="gender">Female
+        </div>
+        <div>
+            <label for="qualification">Select Your Qualification</label>
+            <input type="checkbox" name="qualification" value="10th" id="qualification">10th
+            <input type="checkbox" name="qualification" value="12th" id="qualification">12th
+        </div>
+        <div>
+            <label for="country">Select Your Country</label>
+            <select name="country" id="country">
+                <option value="USA">USA</option>
+                <option value="India">India</option>
+                <option value="Australia">Australia</option>
+            </select>
+        </div>
+        <div>
+            <label for="select">Select Your Country</label>
+            <input type="text" id="select" list="countries" />
+            <datalist id="countries">
+                <option value="USA"></option>
+                <option value="India"></option>
+                <option value="Japan"></option>
+            </datalist>
+        </div>
+        <div>
+            <label for="message">Enter Your Views</label>
+            <textarea name="message" id="message" rows="10" cols="50"></textarea>
+        </div>
+        <div>
+            <label for="resume">upload your resume</label>
+            <input type="file" id="resume" />
+        </div>
+        <div>
+            <input type="button" value="click me" id="btn" />
+        </div>
+        <div>
+            <input type="submit" id="submit" value="submit">
+        </div>
+        <div>
+            <label for="range">increase font size</label>
+            <input type="range" id="range" min="1" max="100" value="20" />
+        </div>
+        <div>
+            <label for="dob">date of birth</label>
+            <input type="date" id="dob">
+        </div>
+        <div>
+            <label for="appointment">mention your time</label>
+            <input type="time" id="appointment" />
+        </div>
+        <div>
+            <label for="favcolor">select your favourite color</label>
+            <input type="color" id="favcolor">
+        </div>
+        <div>
+            <label for="searchtext">enter your text</label>
+            <input type="search" id="searchtext" />
+        </div>
+        <div>
+            <label for="month">enter date</label>
+            <input type="month" id="month" />
+        </div>
+        <div>
+            <label for="week">enter date</label>
+            <input type="week" id="week" />
+        </div>
+        <button>Login</button>
+        <button>Clear</button>
+    </form>
+</body>
+</html>
